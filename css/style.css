@@ -1,0 +1,182 @@
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+li{
+	list-style-type: none;
+}
+#wrapper{
+	background: url(../images/concrete_wall.png) repeat;
+}
+#header{
+	height: 500px;
+	position: relative;
+}
+#page{
+	margin: 0 auto;
+}
+#content{
+	background-color: #fff;
+}
+.price-head .glyphicon{
+	color: green;
+	font-size: 64px;
+}
+.price-head h2, .contact-head h2{
+	font-size: 44px;
+}
+.price-content table{
+	font-size: 18px;
+}
+.contact-phones ul{
+	font-size: 22px;
+}
+.contact-phones .glyphicon{
+	font-size: 128px;
+	color: green;
+}
+.intro{
+	text-align: center;
+	color: #f8f8f8;
+	position: absolute;
+	right: 0;
+    left: 0;
+    z-index: 1000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+h1.intro{
+	font-size: 52px;
+	margin: 0;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.6);
+}
+.menu-divider {
+	width: 500px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+#header .carousel-caption{
+	bottom: 120px;
+	right: 10%;
+	left: 10%;
+}
+#header .carousel-indicators {
+	bottom: 110px;
+}
+#header .carousel-control {
+	width: 10%;
+}
+#header_menu{
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.4);
+}
+#header_menu .list-inline{
+	margin-bottom: 20px;
+}
+#header .carousel, #header .carousel-inner{
+	height: 100%;
+}
+.main-menu{
+	
+}
+.punct-left{
+	border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+.centered-image{
+	margin: 0 auto;
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 100%;
+}
+.item h3{
+	color: #fff;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+#header_slide1{
+	background: url(../images/we_coming_soon.jpg);
+	background-size: cover;
+}
+#header_slide2{
+	background: url(../images/truck_in_motion.jpg);
+	background-size: cover;
+}
+#header_slide3{
+	background: url(../images/few_trucks.jpg);
+	background-size: cover;
+}
+.content-section-a {
+	padding: 40px;
+	background-color: #f8f8f8;
+}
+.content-section-b {
+	padding: 40px;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+.section-heading-spacer {
+	float: left;
+	width: 200px;
+	border-top: 3px solid #e7e7e7;
+}
+.section-heading {
+	margin-bottom: 30px;
+}
+.section-heading span{
+	color: green;
+}
+.lead {
+	font-size: 18px;
+	font-weight: 400;
+}
+.ending{
+	font-size: 16px;
+	font-weight: bold;
+}
+.contact-baner{
+	text-align: center;
+	padding: 20px 10px;
+	color: #f8f8f8;
+	background-color: rgba(0,0,0,0.2);
+}
+.contact-baner .box{
+    background-color: #333;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) inset;
+    color: #fff;
+    padding: 8px;
+}
+.contact-baner .phones{
+	padding-top: 10px;
+	font-weight: lighter;
+	font-size: 18px;
+}
+.contact-baner .phones span{
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.contact-baner .glyphicon{
+	color: green;
+	font-size: 96px;
+}
+.contact-baner h3{
+	color: #dfdfdf;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+#footer{
+	padding: 20px 0;
+	/*background-color: #f8f8f8;*/
+	background-color: transparent;
+	text-align: center;
+}
